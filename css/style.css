@@ -757,7 +757,8 @@ section{
 /* filter form starts here */
 
 .filters form{
-   background-color: var(--white);
+   background:url('../images/pexels.jpg') no-repeat;
+   /* background-color: var(--white); */
    box-shadow: var(--box-shodow);
    padding: 2rem;
 }
@@ -831,10 +832,16 @@ section{
 }
 
 /* form starts here */
+
+.form-container {
+   background:url('../images/pexels.jpg') no-repeat;
+   background-position: center;
+}
 .form-container form{
+   background-color: transparent;
    max-width: 50rem;
    margin: 0 auto;
-   background-color: var(--white);
+   /* background-color: var(--white); */
    box-shadow: var(--box-shodow);
    padding: 2rem;
    text-align: center;
